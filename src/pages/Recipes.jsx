@@ -1,19 +1,32 @@
 export default function BasicRecipes() {
   return (
-  <div className=" bg-amber-900 text-amber-100 p-4 flex-1">
-    <p>
-      <img src="br.jpg" flex justify-center></img>
-      <h1 className="text-2xl font-bold flex justify-center">Fudgy Brownies</h1>
-    </p>
+  <div className=" bg-amber-100">
+    <div className="mb-8 p-4 bg-amber-800 rounded-lg shadow-md w-full max-w-md text-center">
+            <img 
+                src="/my-website/br.jpg" 
+                alt="Fudgy Brownies" 
+                className="w-full h-auto max-w-xs mx-auto mb-4 rounded-md" 
+            />
+            <h1 className="text-xl font-bold text-white">Fudgy Brownies</h1>
+    </div>
     
-    <p>
-      <img src="ck.jpg" flex justify-center></img>
-      <h1 className="text-2xl font-bold flex justify-center">Basic Butter Cookies</h1>
-    </p>
-    <p>
-      <img src="mug.jpg" flex justify-center></img>
-      <h1 className="text-2xl font-bold flex justify-center">Vanilla Mug Cake</h1>
-    </p>
+    <div className="mb-8 p-4 bg-amber-800 rounded-lg shadow-md w-full max-w-md text-center">
+            <img 
+                src="/my-website/ck.jpg" 
+                alt="Basic Butter Cookies" 
+                className="w-full h-auto max-w-xs mx-auto mb-4 rounded-md" 
+            />
+            <h1 className="text-xl font-bold text-white">Basic Butter Cookies</h1>
+    </div>
+
+    <div className="mb-8 p-4 bg-amber-800 rounded-lg shadow-md w-full max-w-md text-center">
+            <img 
+                src="/my-website/mug.jpg" 
+                alt="Vanilla Mug Cake" 
+                className="w-full h-auto max-w-xs mx-auto mb-4 rounded-md" 
+            />
+            <h1 className="text-xl font-bold text-white">Vanilla Mug Cake</h1>
+        </div>
   </div>
   )
 }
