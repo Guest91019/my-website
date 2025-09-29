@@ -1,5 +1,5 @@
 import { StrictMode } from 'react'
-import '.sw-registeation.js'
+import './sw-registration.js'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
