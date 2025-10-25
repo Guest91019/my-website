@@ -10,8 +10,8 @@ export default defineConfig({
     includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg'],
     manifest:
     {
-      name: "My React PWA",
-      short_name: 'ReactPWA',
+      name: "Guestu",
+      short_name: 'Kawintra',
       description: 'A React app with Vite + PWA',
       theme_color: '#ffffff',
       icons:
